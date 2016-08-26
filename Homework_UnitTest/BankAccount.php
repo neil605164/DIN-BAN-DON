@@ -10,20 +10,19 @@ class BankAccount
 {
     public $balance=0;
 
-
     public function get_account(){
         return $this->balance;
     }
-
 
     public function set_account($money)
     {
         if($money>=0){
             return $this->balance = $money;
-        }else{
+        }
+        else{
+            echo "請重新設定";
         }
     }
-
 
     public function deposit($money)
     {
@@ -32,11 +31,12 @@ class BankAccount
         }
     }
 
-
     public function Withdrawal($money)
     {
-        if($this->balance>0 && $this->balance >= $money){
-            $this->balance -= $money;
+        $balance=500;
+        if($balance>0 && $balance >= $money){
+
+            $balance -= $money;
             return true;
         }else{
             return false;
