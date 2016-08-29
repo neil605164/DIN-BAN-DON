@@ -25,17 +25,17 @@ class BankAccountTest extends PHPUnit_Framework_TestCase
     public function testsetaccount()
     {
         $myAccount= new BankAccount();
-        $Account = $myAccount->set_account(200);
-        $this->assertEquals(200,$Account);
-        $Account = $myAccount->set_account(-1);
-        $this->assertEquals(null,$Account);
+        $this->assertTrue($myAccount->set_account(50));
+        $this->assertfalse($myAccount->set_account(-1));
     }
 
     public function testdeposit()
     {
         $myAccount= new BankAccount();
-        $Account = $myAccount->deposit(40);
-        $this->assertEquals(40,$Account);
+        $this->assertTrue($myAccount->deposit(50));
+
+        $myAccount= new BankAccount();
+        $this->assertfalse($myAccount->deposit(-1));
     }
 
     public function testWithdrawal()

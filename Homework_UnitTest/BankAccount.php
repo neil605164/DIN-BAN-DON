@@ -17,17 +17,22 @@ class BankAccount
     public function set_account($money)
     {
         if($money>=0){
-            return $this->balance = $money;
+            $this->balance = $money;
+            return true;
         }
         else{
-            echo "請重新設定";
+            return false;
         }
     }
 
+
     public function deposit($money)
     {
-        if($this->balance>=0){
-            return $this->balance += $money;
+        if($money > 0){
+            $this->balance += $money;
+            return true;
+        }else {
+            return false;
         }
     }
 
@@ -38,8 +43,7 @@ class BankAccount
 
             $balance -= $money;
             return true;
-        }else{
-            return false;
         }
+        return false;
     }
 }
