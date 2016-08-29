@@ -1,15 +1,15 @@
 <<<<<<< HEAD
-¥»¾÷ºİªº IP  : 192.168.153.159
+İª IP  : 192.168.153.159
 
 Week : 8
 
-    Project ¡G FuelPHP
+    Project G FuelPHP
 	
            http://192.168.153.159/neil_hsieh/DIN-BAN-DON/public/
-           »¡©ú¡G¥Îfuelphp¼¶¼g­q«K·í¨t²Î
-           §¹¦¨¤é´Á¡G2016/08/25
+           GfuelphpgqKt
+           G2016/08/25
 		   
-	Project ¡G Homework_UnitTest
+	Project G Homework_UnitTest
 =======
 æœ¬æ©Ÿç«¯çš„ IP  : 192.168.153.159
 
@@ -24,7 +24,7 @@ Week : 8
 	Project ï¼š Homework_UnitTest
 >>>>>>> 4c4f24c0929c7dafd531468738a9627e5e51bd21
 	
-           http://192.168.153.159/neil_hsieh/Homework_UnitTest/
+           http://192.168.153.159/neil_hsieh/Homework_UnitTest/report/
            èªªæ˜ï¼š
 		   æ’°å¯«ä¸€æ”¯é¡åˆ¥åç¨±BankAccount,4å€‹function;
 		   å»ºç«‹BankAccountTest.phpæ¸¬è©¦æª”;
