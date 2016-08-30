@@ -354,3 +354,19 @@ WARNING - 2016-08-30 09:04:05 --> Fuel\Core\Fuel::init - The configured locale e
 WARNING - 2016-08-30 09:04:05 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
 WARNING - 2016-08-30 09:04:08 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
 WARNING - 2016-08-30 09:04:08 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:05:05 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:05:06 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 09:05:06 --> Notice - Undefined variable: board in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\app\views\board\delete.php on line 16
+WARNING - 2016-08-30 09:05:06 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:05:07 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:05:07 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:05:08 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:05:09 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:05:09 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 09:05:09 --> Notice - Undefined variable: board in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\app\views\board\delete.php on line 16
+WARNING - 2016-08-30 09:05:10 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:05:10 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:05:10 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:05:56 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:05:56 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 09:05:56 --> Notice - Undefined variable: board in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\app\views\board\delete.php on line 16
