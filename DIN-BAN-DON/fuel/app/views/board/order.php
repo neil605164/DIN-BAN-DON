@@ -1,5 +1,5 @@
 <div class="w3-card-4">
-	<form class="w3-container" method="post" action="order">
+	<?= Form::open(array('action' => 'order', 'method' => 'post', 'class' => 'w3-container')); ?>
 
 		<p>
 			<?php foreach ($DB_store_datas as $store) { ?>
@@ -15,7 +15,7 @@
 		<?php } ?>
 
 		<button class="w3-btn w3-teal  w3-margin">刪除訂購</button>
-	</form>
+	<?php echo Form::close(); ?>
 </div>
  
  

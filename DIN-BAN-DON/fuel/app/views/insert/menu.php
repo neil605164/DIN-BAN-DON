@@ -1,6 +1,5 @@
 <div class="w3-card-4">
-
-	<form class="" action="menu" method="post" style="margin-left: 10px;margin-right: 10px";>
+	<?= Form::open(array('action' => 'menu', 'method' => 'post', 'style' => 'margin-left: 10px;margin-right: 10px')); ?>
 		<p>
 			<div class="w3-container w3-green">
 			  	<h2>產品設定</h2>
@@ -24,5 +23,5 @@
 
 		<button class="w3-btn w3-teal  w3-margin">直接儲存</button>
 		<?= Html::anchor('/', '取消新增', ['class' => 'w3-btn w3-teal  w3-margin']); ?>
-	</form>
+	<?php echo Form::close(); ?>
 </div>

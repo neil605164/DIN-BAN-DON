@@ -1,4 +1,5 @@
 <div class="w3-card-4">
+	<?= Form::open(array('myform' => '/create', 'method' => 'post', 'class' => 'w3-container')); ?>
 	<form class="w3-container" method="post" name="myform">
 		<?php foreach ($DB_board_data as $board) { ?>
 			<div class="w3-card-4 w3-padding">
@@ -19,5 +20,5 @@
 				<p><?= Html::anchor('delete/' . $board->id, '訂餐截止', ['class' => 'w3-btn-block w3-grey']); ?></p>
 			</div>
 		<?php } ?>
-	</form>
+	<?php echo Form::close(); ?>
 </div>

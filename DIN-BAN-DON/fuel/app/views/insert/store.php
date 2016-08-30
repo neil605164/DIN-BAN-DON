@@ -1,6 +1,5 @@
 <div class="w3-card-4">
-
-	<form class="w3-container" action="store" method="post" enctype="multipart/form-data">
+	<?= Form::open(array('action' => 'store', 'method' => 'post', 'class' => 'w3-container', 'enctype' => 'multipart/form-data')); ?>
 
 		<p>
 		<div class="w3-container w3-green">
@@ -47,6 +46,6 @@
 		
 		<button class="w3-btn w3-teal  w3-margin">存儲新增</button>
 		<?= Html::anchor('/', '取消新增', ['class' => 'w3-btn w3-teal  w3-margin']); ?>
-	</form>
+	<?php echo Form::close(); ?>
 
 </div>
