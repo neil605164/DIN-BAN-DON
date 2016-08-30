@@ -15,7 +15,7 @@
 	  <li class="w3-hide-medium w3-hide-large w3-opennav w3-right">
 	    <a class="w3-hover-white w3-large w3-theme-d2" href="javascript:void(0);" onclick="openNav()"><i class="fa fa-bars"></i></a>
 	  </li>
-	  <li><a href="/" class="w3-teal"><i class="fa fa-home w3-margin-right"></i>Logo</a></li>
+	  <li><?= Html::anchor('/', 'Logo', ['class' => 'w3-teal']); ?><i class="fa fa-home w3-margin-right"></i></li>
 	  
 	  <!--若登入成功，在每一頁印出使用者名稱 & 才可以執行insert等功能 -->
 		<?php if(Session::get('user')) {?>
