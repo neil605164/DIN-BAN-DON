@@ -23,6 +23,6 @@
 		<input class="w3-input" type="text" name="price" required>
 
 		<button class="w3-btn w3-teal  w3-margin">直接儲存</button>
-		<a  href="/" class="w3-btn w3-teal  w3-margin">取消新增</a>
+		<?= Html::anchor('/', '取消新增', ['class' => 'w3-btn w3-teal  w3-margin']); ?>
 	</form>
 </div>

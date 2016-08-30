@@ -2,7 +2,7 @@
 
 	<?php foreach ($DB_store_data as $store){ ?>
 		<li>
-			<a href="/view/<?= $store->id ?>"><?= $store->name ?></a>
+			<?= Html::anchor('view' . $store->id, $store->name); ?>
 		</li>
 	<?php } ?>
 </div>

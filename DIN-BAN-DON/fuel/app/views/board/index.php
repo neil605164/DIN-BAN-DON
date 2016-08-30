@@ -14,12 +14,10 @@
 					<?php $store = Model_store::find($board->store_id); ?>
 					<p><?= $store->name ?></p>
 				</div>
-
-				<p><a href="/member_add/<?= $board->id ?>" class="w3-btn-block w3-theme-l4">我也要訂</a></p>
-				<p><a href="/order/<?= $board->id ?>" class="w3-btn-block w3-dark-grey">查詢訂購結果</a></p>
-				<p><a href="/delete/<?= $board->id ?>" class="w3-btn-block w3-grey">訂餐截止</a></p>
-
+				<p><?= Html::anchor('member_add' . $board->id, '我也要訂', ['class' => 'w3-btn-block w3-theme-l4']); ?></p>
+				<p><?= Html::anchor('order' . $board->id, '查詢訂購結果', ['class' => 'w3-btn-block w3-dark-grey']); ?></p>
+				<p><?= Html::anchor('delete' . $board->id, '訂餐截止', '[class' => 'w3-btn-block w3-grey']); ?></p>
 			</div>
-	<?php } ?>
+		<?php } ?>
 	</form>
 </div>

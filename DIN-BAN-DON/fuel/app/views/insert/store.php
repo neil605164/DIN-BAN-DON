@@ -46,7 +46,7 @@
 		</p>
 		
 		<button class="w3-btn w3-teal  w3-margin">存儲新增</button>
-		<a href="/" class="w3-btn w3-teal  w3-margin">取消新增</a>
+		<?= Html::anchor('/', '取消新增', ['class' => 'w3-btn w3-teal  w3-margin']); ?>
 	</form>
 
 </div>
