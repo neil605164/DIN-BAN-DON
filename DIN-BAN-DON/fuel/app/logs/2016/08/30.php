@@ -73,3 +73,13 @@ WARNING - 2016-08-30 07:38:26 --> Fuel\Core\Fuel::init - The configured locale e
 ERROR - 2016-08-30 07:38:26 --> Parsing Error - syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\app\views\board\index.php on line 19
 WARNING - 2016-08-30 07:39:14 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
 WARNING - 2016-08-30 07:39:14 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 07:43:27 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:43:27 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:43:28 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:43:28 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:44:42 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:44:42 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:44:46 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:44:46 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:50:49 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:50:49 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
