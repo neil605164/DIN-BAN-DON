@@ -70,7 +70,7 @@ class Controller_Insert extends Controller_Template
 		}else{
 			Session::set_flash('error','Unsucessful');
 		}
-		return Response::redirect('store');
+		return Response::redirect('menu');
 	}
 
 	public function get_menu()
