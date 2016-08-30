@@ -183,7 +183,7 @@ class Controller_Board extends Controller_Template
 		$board_id = input::post('board_id');
 		if($board_id){
 			
-			//$store_id吻合board資料表下的store_id欄位的值
+			//$board_id吻合board資料表下的board_id欄位的值
 			$DB_board_data = Model_board::find('all',[
 				'where' =>[
 					'id' => $board_id
@@ -199,7 +199,7 @@ class Controller_Board extends Controller_Template
 			return Response::redirect('/');
 		}else{
 			Session::set_flash('error','刪除失敗'.$board_id);
-			return Response::redirect('delete/'.$board_id);
+			return Response::redirect('/');
 		}
 	}
 }
