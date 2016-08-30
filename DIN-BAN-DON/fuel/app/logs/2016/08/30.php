@@ -450,3 +450,85 @@ WARNING - 2016-08-30 09:28:48 --> Fuel\Core\Fuel::init - The configured locale e
 ERROR - 2016-08-30 09:28:48 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\app\classes\controller\board.php on line 115
 WARNING - 2016-08-30 09:28:51 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
 ERROR - 2016-08-30 09:28:51 --> Notice - Undefined variable: board in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\app\views\board\delete.php on line 5
+WARNING - 2016-08-30 09:32:15 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 09:32:15 --> Notice - Undefined variable: board in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\app\views\board\delete.php on line 5
+WARNING - 2016-08-30 09:32:17 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:32:18 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:32:20 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:32:20 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:32:24 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:32:24 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:32:24 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:32:26 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:32:26 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:32:29 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:32:29 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:34:50 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 09:34:50 --> Notice - Undefined variable: DB_board_datas in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\app\views\board\member_add.php on line 2
+WARNING - 2016-08-30 09:35:23 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 09:35:24 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\app\views\board\member_add.php on line 3
+WARNING - 2016-08-30 09:36:00 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:36:00 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:36:21 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:36:21 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:36:22 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:36:23 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:36:23 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:36:23 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:36:23 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:36:24 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:36:24 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:36:25 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:36:29 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 09:36:29 --> Error - Could not find asset: bootstrap.css in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\classes\asset\instance.php on line 413
+WARNING - 2016-08-30 09:37:26 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 09:37:26 --> Error - Could not find asset: bootstrap.css in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\classes\asset\instance.php on line 413
+WARNING - 2016-08-30 09:37:33 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 09:37:33 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\app\classes\controller\board.php on line 64
+WARNING - 2016-08-30 09:37:37 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 09:37:37 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\app\classes\controller\board.php on line 64
+WARNING - 2016-08-30 09:38:02 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 09:38:02 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\app\classes\controller\board.php on line 64
+WARNING - 2016-08-30 09:38:06 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:38:10 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:38:14 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:38:14 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:38:16 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:38:16 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:42:57 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:42:58 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:42:58 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:42:59 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:42:59 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:42:59 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:43:02 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 09:43:02 --> Notice - Trying to get property of non-object in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\app\classes\controller\board.php on line 64
+WARNING - 2016-08-30 09:43:09 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:43:09 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:43:10 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:43:23 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:43:24 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:43:52 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:43:52 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:43:52 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:43:53 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:43:53 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:44:01 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:44:01 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:44:03 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:44:03 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:44:07 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:44:07 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:44:08 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:44:08 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:50:53 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:50:53 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:50:56 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:51:06 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:52:33 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:52:33 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:52:36 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:52:36 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:52:36 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:52:42 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 09:52:42 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.

@@ -85,8 +85,9 @@ class Controller_Board extends Controller_Template
 		$username = input::post('username');
 		$board_id = input::post('board_id');
 		$store_id = input::post('store_id');
-		$menu_id = input::post('mycheckbox');
-		foreach ($menu_id as $menu_ids) {
+		$menu_ids = input::post('mycheckbox');
+
+		foreach ($menu_ids as $menu_id) {
 
 			//將接收到的資料存成陣列，並指定給$DB_store
 			$DB_member = new Model_member();
@@ -96,6 +97,8 @@ class Controller_Board extends Controller_Template
 			$DB_member->board_id = $board_id;
 			$DB_member->store_id = $store_id;
 			$DB_member->menu_id = $menu_ids;
+
+			$DB_member->save();
 		}
 
 		Session::set_flash('success','Sucessful');

@@ -16,7 +16,6 @@
 				<button class="w3-btn w3-teal  w3-margin">刪除資料</button>
 			<?php $board_id = $board->id; } ?>
 			<input type='hidden' name=board_id value="<?= $board->id?>">
-			<input type='text' name=board_id value="<?= $board->id?>">
 		</div>
 
 	<?php echo Form::close(); ?>
