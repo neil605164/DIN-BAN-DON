@@ -72,7 +72,7 @@ class Controller_Board extends Controller_Template
 			],
 		]);
 
-		$data = ['DB_boards_datas' => $DB_board_data, 'DB_menu_datas' => $DB_menu_data, 'DB_store_datas' => $DB_store_data,];
+		$data = ['DB_board_data' => $DB_board_data, 'DB_menu_datas' => $DB_menu_data, 'DB_store_datas' => $DB_store_data,];
 
 		//指派$DB_menus_data的值，到瀏覽器輸出
 		$this->template->content = view::forge('board/member_add', $data);

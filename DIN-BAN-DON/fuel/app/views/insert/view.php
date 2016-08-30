@@ -20,11 +20,12 @@
 		<button class="w3-btn w3-teal  w3-margin" >存儲修改</button>
 	<?php echo Form::close(); ?>
 
-	<?php $menu_id=0;$store_id=0; foreach ($DB_menus_data as $menu){ ?>
-	<?php $menu_id = $menu->id;$store_id=$menu->store_id; } ?>
+	<?php $store_id=0; foreach ($DB_menus_data as $menu){ ?>
+	<?php $store_id = $menu->store_id; } ?>
 
-	<?= Form::open(array('action' => 'delete/' . $menu_id, 'method' => 'post', 'class' => 'w3-container')); ?>
+	<?= Form::open(array('action' => 'delete', 'method' => 'post', 'class' => 'w3-container')); ?>
 		<input type="hidden" value="<?= $store_id ?>" name="store_id" >
+		<input type="text" value="<?= $store_id ?>" name="store_id" >
 		<button class="w3-btn w3-teal  w3-margin" >資料刪除</button>
 	<?php echo Form::close(); ?>
 </div>

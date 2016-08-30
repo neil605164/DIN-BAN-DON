@@ -1,4 +1,3 @@
-<h2>i'm in delete</h2>
 <div class="w3-card-4 ">
 	<?php $board_id=0; foreach ($DB_board_datas as $board){ ?>
 	<?php $board_id = $board->id; } ?>
