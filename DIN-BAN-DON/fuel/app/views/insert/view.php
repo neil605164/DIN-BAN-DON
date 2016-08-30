@@ -25,7 +25,6 @@
 
 	<?= Form::open(array('action' => 'delete', 'method' => 'post', 'class' => 'w3-container')); ?>
 		<input type="hidden" value="<?= $store_id ?>" name="store_id" >
-		<input type="text" value="<?= $store_id ?>" name="store_id" >
 		<button class="w3-btn w3-teal  w3-margin" >資料刪除</button>
 	<?php echo Form::close(); ?>
 </div>
