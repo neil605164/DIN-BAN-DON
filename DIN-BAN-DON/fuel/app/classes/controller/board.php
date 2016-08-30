@@ -161,7 +161,7 @@ class Controller_Board extends Controller_Template
 			return Response::redirect('/');
 		}else{
 			ession::set_flash('error','刪除失敗'.$member_id);
-			return Response::redirect('order/'.$member_id);
+			return Response::redirect('/');
 		}
 	}
 

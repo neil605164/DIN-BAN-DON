@@ -1,6 +1,7 @@
 <div class="w3-card-4">
-	
-	<?= Form::open(['action' => 'order', 'method' => 'post', 'class' => 'w3-container']); ?>
+	<?php $board_id=0; foreach ($DB_member_datas as $member){ ?>
+	<?php $board_id = $member->board_id; } ?>
+	<?= Form::open(['action' => 'order/' . $board_id, 'method' => 'post', 'class' => 'w3-container']); ?>
 
 		<p>
 			<?php foreach ($DB_store_datas as $store) { ?>

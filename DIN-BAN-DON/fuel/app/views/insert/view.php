@@ -1,5 +1,7 @@
 <div class="w3-card-4">
-	<?= Form::open(['action' => '/view', 'method' => 'post', 'class' => 'w3-container']); ?>
+	<?php $menu_id=0; foreach ($DB_menus_data as $menu){ ?>
+	<?php $menu_id = $menu->id; } ?>
+	<?= Form::open(['action' => 'view/' . $menu_id, 'method' => 'post', 'class' => 'w3-container']); ?>
 		<p>
 			<div class="w3-container w3-green">
 			  	<h2>菜單</h2>
@@ -18,7 +20,11 @@
 		<button class="w3-btn w3-teal  w3-margin" >存儲修改</button>
 	<?php echo Form::close(); ?>
 
-	<?= Form::open(array('action' => '/delete', 'method' => 'post', 'class' => 'w3-container')); ?>
+	<?php $menu_id=0;$store_id=0; foreach ($DB_menus_data as $menu){ ?>
+	<?php $menu_id = $menu->id;$store_id=$menu->store_id; } ?>
+
+	<?= Form::open(array('action' => 'delete/' . $menu_id, 'method' => 'post', 'class' => 'w3-container')); ?>
+		<input type="hidden" value="<?= $store_id ?>" name="store_id" >
 		<button class="w3-btn w3-teal  w3-margin" >資料刪除</button>
 	<?php echo Form::close(); ?>
 </div>
