@@ -1,5 +1,5 @@
 <div class="w3-card-4">
-	<?= Form::open(array('myform' => '/create', 'method' => 'post', 'class' => 'w3-container')); ?>
+	<?= Form::open(['myform' => '/create', 'method' => 'post', 'class' => 'w3-container']); ?>
 	<form class="w3-container" method="post" name="myform">
 		<?php foreach ($DB_board_data as $board) { ?>
 			<div class="w3-card-4 w3-padding">

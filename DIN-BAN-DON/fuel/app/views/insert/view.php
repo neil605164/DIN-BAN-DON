@@ -1,5 +1,5 @@
 <div class="w3-card-4">
-	<?= Form::open(array('action' => '/view', 'method' => 'post', 'class' => 'w3-container')); ?>
+	<?= Form::open(['action' => '/view', 'method' => 'post', 'class' => 'w3-container']); ?>
 		<p>
 			<div class="w3-container w3-green">
 			  	<h2>菜單</h2>
@@ -17,7 +17,7 @@
 		<input type="hidden" value="<?= $store_id ?>" name="store_id" >
 		<button class="w3-btn w3-teal  w3-margin" onclick="update()">存儲修改</button>
 	<?php echo Form::close(); ?>
-	
+
 	<?= Form::open(array('action' => '/delete', 'method' => 'post', 'class' => 'w3-container')); ?>
 		<button class="w3-btn w3-teal  w3-margin" onclick="dd()">資料刪除</button>
 	<?php echo Form::close(); ?>

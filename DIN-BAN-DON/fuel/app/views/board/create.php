@@ -1,5 +1,5 @@
 <div class="w3-card-4 ">
-	<?= Form::open(array('action' => '/create', 'method' => 'post', 'style' => 'margin-left: 10px;margin-right: 10px')); ?>
+	<?= Form::open(['action' => '/create', 'method' => 'post', 'style' => 'margin-left: 10px;margin-right: 10px']); ?>
 		<p>
 			<div class="w3-container  w3-green ">
 			  	<h2>假奔啦</h2>
