@@ -69,3 +69,7 @@ WARNING - 2016-08-30 06:36:08 --> Fuel\Core\Fuel::init - The configured locale e
 WARNING - 2016-08-30 06:36:08 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
 WARNING - 2016-08-30 06:36:15 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
 WARNING - 2016-08-30 06:36:15 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 07:38:26 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:38:26 --> Parsing Error - syntax error, unexpected '=>' (T_DOUBLE_ARROW) in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\app\views\board\index.php on line 19
+WARNING - 2016-08-30 07:39:14 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+WARNING - 2016-08-30 07:39:14 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.

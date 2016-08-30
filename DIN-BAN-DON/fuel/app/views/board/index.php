@@ -16,7 +16,7 @@
 				</div>
 				<p><?= Html::anchor('member_add' . $board->id, '我也要訂', ['class' => 'w3-btn-block w3-theme-l4']); ?></p>
 				<p><?= Html::anchor('order' . $board->id, '查詢訂購結果', ['class' => 'w3-btn-block w3-dark-grey']); ?></p>
-				<p><?= Html::anchor('delete' . $board->id, '訂餐截止', '[class' => 'w3-btn-block w3-grey']); ?></p>
+				<p><?= Html::anchor('delete' . $board->id, '訂餐截止', ['class' => 'w3-btn-block w3-grey']); ?></p>
 			</div>
 		<?php } ?>
 	</form>

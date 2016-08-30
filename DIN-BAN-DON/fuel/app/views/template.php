@@ -19,12 +19,13 @@
 	  
 	  <!--若登入成功，在每一頁印出使用者名稱 & 才可以執行insert等功能 -->
 		<?php if(Session::get('user')) {?>
-			<li class="w3-hide-small"><a href="/store" class="w3-hover-white">新增店家</a></li>
-			<li class="w3-hide-small"><a href="/menu" class="w3-hover-white">新增菜單</a></li>
-			<li class="w3-hide-small"><a href="/show_store" class="w3-hover-white">修改資料</a></li>
-			<li class="w3-hide-small"><a href="/create" class="w3-hover-white">開團訂購</a></li>
+			<?= Html::anchor('logout' . 'Logout', ['class' => 'w3-hover-white']); ?>
+			<li class="w3-hide-small"><?= Html::anchor('store' . '新增店家', ['class' => 'w3-hover-white']); ?></li>
+			<li class="w3-hide-small"><?= Html::anchor('menu' . '新增菜單', ['class' => 'w3-hover-white']); ?></li>
+			<li class="w3-hide-small"><?= Html::anchor('show_store' . '修改資料', ['class' => 'w3-hover-white']); ?></li>
+			<li class="w3-hide-small"><?= Html::anchor('create' . '開團訂購', ['class' => 'w3-hover-white']); ?></li>
 			<li class="w3-hide-small"><a href="#" class="w3-hover-white">Hello~ <?= Session::get('user') ?></a></li>
-			<li class="w3-hide-small"><a href="/logout" class="w3-hover-white">Logout</a></li>
+			<li class="w3-hide-small"><?= Html::anchor('logout' . 'Logout', ['class' => 'w3-hover-white']); ?></li>
 		<?php }else{ ?>
 			<li class="w3-hide-small"><a class="w3-hover-white">Guest</a></li>
 		<?php } ?>
