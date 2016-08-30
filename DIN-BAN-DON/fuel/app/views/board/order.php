@@ -1,5 +1,5 @@
 <div class="w3-card-4">
-	<?= Form::open(array('action' => 'order', 'method' => 'post', 'class' => 'w3-container')); ?>
+	<?= Form::open(array('action' => '/order', 'method' => 'post', 'class' => 'w3-container')); ?>
 
 		<p>
 			<?php foreach ($DB_store_datas as $store) { ?>
