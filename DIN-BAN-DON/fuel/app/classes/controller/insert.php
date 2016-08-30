@@ -182,7 +182,7 @@ class Controller_Insert extends Controller_Template
 			return Response::redirect('/');
 		}else{
 			Session::set_flash('error','刪除失敗'.$store_id);
-			return Response::redirect('view/'.$store_id);
+			return Response::redirect('/');
 		}
 	}
 }
