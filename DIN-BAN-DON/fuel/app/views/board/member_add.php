@@ -1,5 +1,5 @@
 <div class="w3-card-4">
-	<?= Form::open(array('action' => 'member_add', 'method' => 'post', 'class' => 'w3-container')); ?>
+	<form class="w3-container" method="post" name="myform" action="">
 		<p>
 			<?php $store_id=0; foreach ($DB_store_datas as $store) { ?>
 				<div class="w3-container w3-green">
@@ -22,6 +22,6 @@
 		<input type="hidden" value="<?= $DB_boards_datas->id ?>" name="board_id" >
 		<input type="hidden" value="<?=$store_id ?>" name="store_id" >
 		<button class="w3-btn w3-teal  w3-margin" >儲存資料</button>
+	</form>
 
-	<?php echo Form::close(); ?>
 </div>

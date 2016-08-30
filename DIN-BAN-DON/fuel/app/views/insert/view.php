@@ -15,10 +15,10 @@
 			</p>
 		<?php $store_id=$menu->store_id; } ?>
 		<input type="hidden" value="<?= $store_id ?>" name="store_id" >
-		<button class="w3-btn w3-teal  w3-margin" onclick="update()">存儲修改</button>
+		<button class="w3-btn w3-teal  w3-margin" >存儲修改</button>
 	<?php echo Form::close(); ?>
 
 	<?= Form::open(array('action' => '/delete', 'method' => 'post', 'class' => 'w3-container')); ?>
-		<button class="w3-btn w3-teal  w3-margin" onclick="dd()">資料刪除</button>
+		<button class="w3-btn w3-teal  w3-margin" >資料刪除</button>
 	<?php echo Form::close(); ?>
 </div>
