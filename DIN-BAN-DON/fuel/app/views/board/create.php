@@ -1,6 +1,5 @@
 <div class="w3-card-4 ">
-
-	<form class="" action="/create" method="post" style="margin-left: 10px;margin-right: 10px";>
+	<?= Form::open(array('action' => '/create', 'method' => 'post', 'style' => 'margin-left: 10px;margin-right: 10px')); ?>
 		<p>
 			<div class="w3-container  w3-green ">
 			  	<h2>假奔啦</h2>
@@ -24,5 +23,5 @@
 		<input type="text" name="end_time" required>
 		<br>
 		<button class="w3-btn w3-teal  w3-margin">直接儲存</button>
-	</form>
+	<?php echo Form::close(); ?>
 </div>
