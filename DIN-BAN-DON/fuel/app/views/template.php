@@ -19,13 +19,12 @@
 	  
 	  <!--若登入成功，在每一頁印出使用者名稱 & 才可以執行insert等功能 -->
 		<?php if(Session::get('user')) {?>
-			<?= Html::anchor('新增店家', '新增店家', ['class' => 'w3-hover-white']);?>
-			<li class="w3-hide-small"><?= Html::anchor('新增店家', '新增店家', ['class' => 'w3-hover-white']); ?></li>
-			<li class="w3-hide-small"><?= Html::anchor('menu' . '新增菜單', ['class' => 'w3-hover-white']); ?></li>
-			<li class="w3-hide-small"><?= Html::anchor('show_store' . '修改資料', ['class' => 'w3-hover-white']); ?></li>
-			<li class="w3-hide-small"><?= Html::anchor('create' . '開團訂購', ['class' => 'w3-hover-white']); ?></li>
+			<li class="w3-hide-small"><?= Html::anchor('store', '新增店家', ['class' => 'w3-hover-white']); ?></li>
+			<li class="w3-hide-small"><?= Html::anchor('menu', '新增菜單', ['class' => 'w3-hover-white']); ?></li>
+			<li class="w3-hide-small"><?= Html::anchor('show_store', '修改資料', ['class' => 'w3-hover-white']); ?></li>
+			<li class="w3-hide-small"><?= Html::anchor('create', '開團訂購', ['class' => 'w3-hover-white']); ?></li>
 			<li class="w3-hide-small"><a href="#" class="w3-hover-white">Hello~ <?= Session::get('user') ?></a></li>
-			<li class="w3-hide-small"><?= Html::anchor('logout' . 'Logout', ['class' => 'w3-hover-white']); ?></li>
+			<li class="w3-hide-small"><?= Html::anchor('logout', 'Logout', ['class' => 'w3-hover-white']); ?></li>
 		<?php }else{ ?>
 			<li class="w3-hide-small"><a class="w3-hover-white">Guest</a></li>
 		<?php } ?>
