@@ -1,5 +1,5 @@
 <div class="w3-card-4">
-	<form class="w3-container" method="post" name="myform" action="delete">
+	<form class="w3-container" method="post" name="myform" action="">
 		<p>
 			<?php $store_id=0; foreach ($DB_store_datas as $store) { ?>
 				<div class="w3-container w3-green">
