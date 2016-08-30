@@ -83,3 +83,29 @@ WARNING - 2016-08-30 07:44:46 --> Fuel\Core\Fuel::init - The configured locale e
 ERROR - 2016-08-30 07:44:46 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
 WARNING - 2016-08-30 07:50:49 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
 ERROR - 2016-08-30 07:50:49 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:57:35 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:57:35 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:57:36 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:57:36 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:57:37 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:57:37 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:57:37 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:57:37 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:57:37 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:57:37 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:57:38 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:57:38 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:57:38 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:57:38 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:57:38 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:57:38 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:57:38 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:57:38 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:57:39 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:57:39 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:57:39 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:57:39 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:57:39 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:57:39 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
+WARNING - 2016-08-30 07:57:47 --> Fuel\Core\Fuel::init - The configured locale en_US is not installed on your system.
+ERROR - 2016-08-30 07:57:47 --> Notice - Array to string conversion in C:\xampp\htdocs\neil_hsieh\DIN-BAN-DON\fuel\core\base.php on line 181
